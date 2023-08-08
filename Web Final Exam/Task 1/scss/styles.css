@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 700;
+}
+
+#x-mark {
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger, #x-mark {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.hamburger-content {
+  display: none;
+  flex-direction: column;
+  height: 77vh;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hamburger-content a {
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
